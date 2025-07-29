@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AirAware - Air Quality Monitor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 AirAware</h1>
+        <h2>City: {{ data.location }}</h2>
+        <p>Air Quality Index (AQI): <strong>{{ data.aqi }}</strong></p>
+        <p>Status: <span class="status">{{ data.status }}</span></p>
+        <p class="advice">{{ data.advice }}</p>
+    </div>
+</body>
+</html>

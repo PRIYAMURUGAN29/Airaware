@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef5f9;
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.status {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.advice {
+    margin-top: 20px;
+    font-style: italic;
+}
